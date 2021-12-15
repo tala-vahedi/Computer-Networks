@@ -7,3 +7,8 @@ This web_client does the following:
 4. Save the body of the HTTP response to param_file (skip the header)
 5. If the HTTP response is anything rather than 200 OK, write the response header to param_file
 6. Close the connection and the file
+
+The url_parser does the following:
+1. requests a webpage via a two parameter terminal/command line
+2. parses the url for host, port, path and domain
+3. writes the parsed items into a text file
